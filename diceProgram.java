@@ -19,6 +19,15 @@ public class diceProgram{
 	System.out.println("Die 2: " + count2);
 
 	System.out.println("Total value: "+ (count1 + count2) );
+
+
+	if( (count1+count2) > 7){
+	    System.out.println("You won");
+	}
+	else {
+	    System.out.println("You lost");
+	}
+	
     }
 
 }
